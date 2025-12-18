@@ -1,12 +1,33 @@
-# React + Vite
+[Русская версия](README.ru.md)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# LTC - Legendary Tcell Calculator
 
-Currently, two official plugins are available:
+## Whats Tcell stands for 
+**Tcell** is one of the largest tajik mobile network operators in Tajikistan.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## How this project connects with it 
+This project is a demonstration and implementation of new features that hasn't been added to tcell website yet.
 
-## Expanding the ESLint configuration
+## Which problems it solves 
+### Tarrif Calculator
+Instead of searching among 20+ tarrifs tcell provides to find the right one, let our calculator do the job. Just pick how much megabytes, minutes or sms you need and it will pick the right one for you.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### Track your expenses
+You can loggin into your account and track how much sms, minutes or megabytes you used for the past month
+
+### For managers
+Using LLM integration our app categorizes complaints for easier managment
+
+---
+
+## Contribution
+Feel free to suggest ideas in with your PRs and add something to this project.
+To start just copy the repo:
+```bash
+git clone https://github.com/kayumovmuhammad/ltc_front.git
+cd ltc_front
+npm install
+```
+
+
+
