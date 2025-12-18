@@ -1,1 +1,6 @@
-export const API_URL = "http://127.0.0.1:8000";
+// Dev default
+// export const API_URL = "http://127.0.0.1:8000";
+
+// Production
+export const API_URL = "https://ltc-larr.onrender.com"
+

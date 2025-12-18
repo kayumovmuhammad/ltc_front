@@ -1,3 +1,5 @@
+import { API_URL } from "../config";
+
 import DashboardHeader from "../components/DashboardHeader";
 import DataUsageChart from "../components/DataUsageChart";
 import UsagePieChart from "../components/UsagePieChart";
@@ -30,7 +32,7 @@ const Index = () => {
 
     useEffect(() => {
         setLoading(true);
-        fetch("http://127.0.0.1:8000/calc_expenses", {
+        fetch(`${API_URL}/calc_expenses`, {
             method: "POST",
             headers: { "Content-Type": "application/json" },
             body: JSON.stringify({ phone: "992917123456" }),
